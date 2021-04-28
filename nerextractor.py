@@ -10,13 +10,8 @@ import os
 import threading
 import uuid
 import sys
-import meaningcloud
 import pickle
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = constants.GOOGLE_CREDS
-from google.cloud import language
-from google.cloud.language import enums
-from google.cloud.language import types
 
 class NerExtractor:
 
